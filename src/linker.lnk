@@ -1,0 +1,8 @@
+name kernel.bin
+format RAW BIN
+OPTION NODEFAULTLIBS
+option start=_main
+option map=kernel.map
+
+file kernel.obj
+file stub.obj
